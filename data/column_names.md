@@ -1,7 +1,7 @@
 # Column Names and descriptions for Kings County Data Set
 * **id** - unique identified for a house
-* **dateDate** - house was sold
-* **pricePrice** -  is prediction target
+* **date** - house was sold
+* **price** -  is prediction target
 * **bedroomsNumber** -  of Bedrooms/House
 * **bathroomsNumber** -  of bathrooms/bedrooms
 * **sqft_livingsquare** -  footage of the home
