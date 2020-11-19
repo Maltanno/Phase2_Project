@@ -1,0 +1,47 @@
+98,Other
+99,No Gate No See
+A1,Accessory Building
+A2,Abandoned
+A3,Group Mailbox
+A9,Access Point
+B1,Bridge
+B2,Airport
+B3,Helipad
+B4,Campground
+B9,Culvert
+C1,Commercial
+C9,Other Commercial
+CF,Commercial Farm
+CL,Lodging
+DV,Dev Site
+ED,Dry Hydrant
+EH,Hydrant
+EP,Fire Pond
+ET,Public Telephone
+G1,Gate w/o Building
+G2,Gated w/ Building
+GC,GIS Comment
+H1,Hanger
+I1,Industrial
+OC,Old Comment
+P0,Cemetery
+P1,Government
+P2,Health Care
+P3,Church
+P4,Educational
+P5,Cultural
+P6,Police
+P7,Fire
+P8,Public Gathering
+P9,Ambulance House
+PS,PSAP
+R1,Single Family
+R2,Multi Family
+R3,Mobile Home
+R4,Other Residential
+R5,Camp/Bungalow
+R6,Seasonal Home
+SC,Special Comment
+TB,Town Boundary Point
+U1,Utility
+VC,Verification Comment
