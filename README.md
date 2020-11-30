@@ -52,7 +52,7 @@ Latitude and Longitude of:
 
 ## Problem-solving Process
 
-![Q1](README_Visuals/Data_Analysis.png)
+![Q1](README_Visuals/Data_Analysis.PNG)
 ![Q2](README_Visuals/Baseline.png)
 ![Q3](README_Visuals/Final.png)
 ![Q4](README_Visuals/GIS.png)
