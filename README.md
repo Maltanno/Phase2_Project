@@ -15,7 +15,7 @@ A real estate firm needs a reliable model to predict house prices based on its f
 ## Data
 Initial data contained data on 21,597 houses sold in Kings Country in 2014 and 2015.
 
-# Column Names and descriptions for Kings County Data Set:
+### Column Names and descriptions for Kings County Data Set:
 * id - Unique identifier for the house
 * date - Date that the house was sold
 * price - Price of the house ( prediction target )
@@ -38,7 +38,7 @@ Initial data contained data on 21,597 houses sold in Kings Country in 2014 and 2
 * sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors
 * sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors
 
-# Kings Country GIS Data (Data from https://gis-kingcounty.opendata.arcgis.com)
+### Kings Country GIS Data (Data from https://gis-kingcounty.opendata.arcgis.com)
 Latitude and Longitude of:
 * Airports
 * Cemeteries
