@@ -52,13 +52,13 @@ Latitude and Longitude of:
 
 ## Problem-solving Process
 
-![Q1](README Visuals/Data_Analysis.png)
-![Q2](README Visuals/Baseline.png)
-![Q3](README Visuals/Final.png)
-![Q4](README Visuals/GIS.png)
-![Q5](README Visuals/Positive_Coeff..png)
-![Q6](README Visuals/Negative_Coeff..png)
-![Q7](README Visuals/Insights.png)
+![Q1](README_Visuals/Data_Analysis.png)
+![Q2](README_Visuals/Baseline.png)
+![Q3](README_Visuals/Final.png)
+![Q4](README_Visuals/GIS.png)
+![Q5](README_Visuals/Positive_Coeff.png)
+![Q6](README_Visuals/Negative_Coeff.png)
+![Q7](README_Visuals/Insights.png)
 
 ## Contact us:
 TaeJoon Kim (tjkim614@gmail.com)
