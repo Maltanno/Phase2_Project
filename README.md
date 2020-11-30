@@ -51,13 +51,14 @@ Latitude and Longitude of:
 * Utilities
 
 ## Problem-solving Process
-![1](/README_Visuals/Data_Analysis.png)
-![2](README_Visuals/Baseline.png)
-![3](README_Visuals/Final.png)
-![4](README_Visuals/GIS.png)
-![5](README_Visuals/Positive_Coeff.png)
-![6](README_Visuals/Negative_Coeff.png)
-![7](README_Visuals/Insights.png)
+<img src="Visuals/Data_Analysis.png" width="800" />
+![1](Visuals/Data_Analysis.png)
+![2](Visuals/Baseline.png)
+![3](Visuals/Final.png)
+![4](Visuals/GIS.png)
+![5](Visuals/Positive_Coeff.png)
+![6](Visuals/Negative_Coeff.png)
+![7](Visuals/Insights.png)
 
 ## Contact us:
 TaeJoon Kim (tjkim614@gmail.com)
