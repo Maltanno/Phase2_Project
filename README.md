@@ -51,7 +51,6 @@ Latitude and Longitude of:
 * Utilities
 
 ## Problem-solving Process
-<img src="Visuals/Data_Analysis.png" width="800" />
 ![1](Visuals/Data_Analysis.png)
 ![2](Visuals/Baseline.png)
 ![3](Visuals/Final.png)
