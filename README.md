@@ -53,11 +53,34 @@ Latitude and Longitude of:
 ## Problem-solving Process
 ![1](Visuals/Data_Analysis.png)
 ![2](Visuals/Baseline.png)
-![3](Visuals/Final.png)
-![4](Visuals/GIS.png)
-![5](Visuals/Positive_Coeff.png)
-![6](Visuals/Negative_Coeff.png)
-![7](Visuals/Insights.png)
+
+![3](Visuals/Methods.png)
+To create a model:      
+Taking the insights gained from the Data Analysis, along with some experiments, I performed various transformations: binning lat/longs and one-hot-encoding, altered minmax scaling, logging, finding polynomial terms.       
+And then, with these newly calculated Features I whittled them down. In turn removing the features with high p-valuues, and multicollinear terms.    
+The last step, for feature selection, was to use Recursive Feature Selection to check how well a model would work with different amounts of the best features. I made a graph from this and used it to help decide the number of features I wanted: The point where adding a single feature no longer made a significant impact; So as not to overfit.    
+I then train the model and get the results.
+This was done several times, altering the order of different transformations or selections, 'til I settled on one:     
+
+![4](Visuals/Final.png)
+By this model’s R^2 we see that it explains 74.1% of the differences in house price. Less than the baseline model, but with fewer features, less likely to be overfit.    
+As a final test, I measured the model’s RMSE for the train and test data. I then measured the RMSE for the base model as well.      
+The final model does have a slightly better qqplot: adhering to the red lineup to ~2.5, rather 2. 
+The residual plot is certainly different with a negative tail to the left, and rising gradually as it heads to the right.
+But with an average error of less than $93000, and time running short we went forward with the base model.       
+
+The data we have can only do so much. It doesn’t tell us what the neighbours are like, 	if a place has become fashionable, 	or maybe an area... just smells.       
+And as a Real Estate Firm it’s essential to remember: Location, Location, Location.
+
+![5](Visuals/GIS.png)
+This shows, in the black, increasing to red, the areas where the model most underestimated the price, relative to the price.       
+And in the cyan, increasing to green, the most overestimated prices       
+The clearest, most solid section we can see is the cyan in the North. But there are some fairly clear divisions elsewhere too, like near the Delridge area inset.        
+Now we can’t identify why; But we can identify areas where adjustments may need to be considered when estimating house prices
+
+![6](Visuals/Positive_Coeff.png)
+![7](Visuals/Negative_Coeff.png)
+![8](Visuals/Insights.png)
 
 ## Contact us:
 TaeJoon Kim (tjkim614@gmail.com)
