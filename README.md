@@ -82,6 +82,16 @@ Now we can’t identify why; But we can identify areas where adjustments may nee
 ![7](Visuals/Negative_Coeff.png)
 ![8](Visuals/Insights.png)
 
+Other future work:
+* Try some more minor changes to the base model e.g. some transforms, without feature selection     
+* Add cross validation
+* Look further into PCA
+* Add sklearn metric into RFE function
+* Find how to get more data from the API
+* Try changing the bedrooms / bathrooms / sqft_living into number_of_rooms, sqft_per_room
+* If we could get the same data over a longer time, it would be interesting to see how the error map changes
+* Try a narrower range of prices
+
 ## Contact us:
 TaeJoon Kim (tjkim614@gmail.com)
 Matthew Andrews (2maltanno@gmail.com)
